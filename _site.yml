@@ -1,0 +1,12 @@
+---
+name: Minie-maison
+output_dir: '.'
+output:
+  html_document:
+    includes:
+      in_header: header.html
+      before_body: after_menu.html
+      after_body: footer.html
+    css: mycss.css
+---    
+

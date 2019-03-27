@@ -1,0 +1,190 @@
+*{
+  margin:0;
+  padding:0;
+} 
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body .main-container {
+  max-width: 1920px;
+  margin-left: 0;
+  margin-right: 0;
+}
+  
+#nav ul {
+ list-style-type:none;
+		background:	#2E8B57;
+  text-align: center;
+ }
+#nav ul li{
+  background:	#2E8B57;
+height: 40px;
+line-height: 40px;
+}
+#nav ul li a {
+ color: white;
+ text-decoration: none;
+}
+
+#nav ul li:hover{
+  background: #3CB371;
+}
+
+#nav ul li .sub-menu{
+        display: none;
+  position: absolute;
+  z-index: 9999;
+    }
+
+#nav ul li:hover .sub-menu{
+        display: block;
+    }
+
+#nav-left li{ 
+  width: 150px;
+  float: left;
+  position: relative;
+}
+#nav-right li{
+  width: 120px;
+  float: right;
+  }
+
+#nav-right{
+  background:	#2E8B57;
+  overflow: hidden;
+}
+
+#header ul {
+list-style-type:none;
+text-align: center;}
+
+#header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#header ul li{
+
+height: 110px;
+
+
+ 
+}
+
+#logo li {  
+  float: left;
+  width: 400px;
+  padding: 00px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;  
+
+}
+
+#giohang li {
+float: right;
+width: 150px;
+line-height: 40px; 
+padding: 30px 0px 0px 0px;
+margin: 0px 0px 0px 0px;  
+
+}
+
+#giohang{
+overflow: hidden;  
+
+}
+
+#fond{
+  background: #2E8B57;
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#timkiem form {
+ padding: 70px 0px 0px 0px; 
+ position: relative;
+}
+
+#timkiem form .icon{
+ position: absolute;
+ margin-left: 350px;
+ margin-top: 10px;
+ 
+}
+
+#timkiem form input#search{
+  width: 380px;
+  height: 40px;
+  line-height: 40px; 
+  background: 	#E6E6FA;
+  border: 2px solid grey;
+  font-size: 15pt;
+}
+
+.slider {
+  width:90%;
+  height: 400px;
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+    left: 5%;
+     transform-origin: center center;
+    transform: scale(1);
+  transition: transform 0.5s;
+  z-index: 1;
+  
+  scroll-behavior: smooth;
+  
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+    
+}
+
+.slide { 
+  overflow:hidden;
+  flex-shrink: 0;
+   
+}
+
+
+.img {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  
+}
+
+.button a {
+  display: inline-flex;
+  background: #2E8B57; /* Green */
+   border-radius: 50%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  content: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 4%;
+margin: 0.5rem 0 0 0;
+  position: relative;
+    left: 40%;
+}
+
+
+.button a:focus {
+  background: #3CB371; }
+
+.level1 {
+  text-align: center;
+  font-family: Comic Sans MS;
+  color: green;
+  margin: 2rem 0 0 0;
+  
+}  
+  
